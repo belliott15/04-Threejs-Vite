@@ -26,3 +26,5 @@ const renderer = new THREE.WebGLRenderer({
 });
 renderer.setSize(sizes.width, sizes.height);
 renderer.render(scene, camera);
+
+//be sure to add the gitignore earlier so you dont download the node modules
